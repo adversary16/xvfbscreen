@@ -1,0 +1,23 @@
+{
+  "name": "xvfbscreen",
+  "version": "0.0.1",
+  "description": "A simplistic Xvfb helper library to manage virtual screens from NodeJS runtime",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start:dev": "tsx --watch ./src",
+    "test": "vitest run"
+  },
+  "author": "adversary16",
+  "repository": {
+    "url": "https://github.com/adversary16/xvfbscreen",
+    "type": "github"
+  },
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "prettier": "3.3.3",
+    "tsx": "4.19.2",
+    "typescript": "5.6.3",
+    "vitest": "2.1.4"
+  }
+}
